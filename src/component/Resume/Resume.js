@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch, useRouteMatch } from 'react-router';
 import { Link } from 'react-router-dom';
 import Education from '../Bio/Education/Education';
+import Interests from '../Bio/Interests/Interests';
 import Skils from '../Bio/Skils/Skils';
 import Work from '../Bio/Work/Work';
 import './Resume.css'
@@ -11,7 +12,7 @@ const Resume = () => {
 
     return (
 
-<div className=' container resume-fild mb-5 '>
+<div className='  resume-fild mb-5 background '>
     <h1 className='resume-text'>Resume</h1>
     <small className='formal'>My formal Bio Details</small>
     <div className='row'>
@@ -26,7 +27,7 @@ const Resume = () => {
                         </div>
 
                             <div className='text-control'>
-                            <Link  to={`${url}`}className='nested-link'>
+                            <Link  to={`${url}/education`}className='nested-link'>
                                 <li className="dashboard-menu "> Education</li>  
                             </Link>
                             <Link  to={`${url}/skils`} className='nested-link'>
@@ -35,9 +36,9 @@ const Resume = () => {
                                 <Link  to={`${url}/work`} className='nested-link'>
                                 <li className="dashboard-menu "> Project</li>
                                 </Link>
-                                {/* <Link  to={`${url}/intersted`} className='nested-link'>
-                                <li className="dashboard-menu "> Intersted</li>
-                                </Link> */}
+                                <Link  to={`${url}/interests`} className='nested-link'>
+                                <li className="dashboard-menu "> Interests</li>
+                                </Link>
 
                             </div>
 
@@ -48,7 +49,7 @@ const Resume = () => {
 
              <div className='col-lg-8 col-sm-6 component'>
                     <Switch>
-                <Route  exact path={`${path}`}>
+                <Route  exact path={`${path}/education`}>
                     <Education></Education>
                 </Route>
                 <Route  exact path={`${path}/skils`}>
@@ -57,6 +58,10 @@ const Resume = () => {
         
                 <Route  exact path={`${path}/work`}>
                    <Work></Work>
+                </Route>
+                
+                <Route  exact path={`${path}/interests`}>
+                   <Interests></Interests>
                 </Route>
                 
                 </Switch>

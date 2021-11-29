@@ -3,9 +3,11 @@ import './Banner.css'
 import Slide from 'react-reveal/Slide';
 import image from '../../image/IMG_0990.JPG'
 
+
 const Banner = () => {
     return (
         <div className='home-component'>
+
             <div className='row'>
                 <div className='col-lg-7 col-sm-12 mehedi-fild'>
                   <div className='mehedi'>
@@ -56,6 +58,7 @@ const Banner = () => {
                 </div>
 
             </div>
+            
         
         </div>
     );

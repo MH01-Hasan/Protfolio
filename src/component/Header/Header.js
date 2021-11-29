@@ -5,22 +5,25 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className=''>
-            <Navbar  expand="lg" bg="dark" variant="dark"  >
+        <div className='home-component'>
+             <Navbar  expand="lg " >
 
-    <Navbar.Brand href="#home" className='mx-5'>Mehedi Hasan</Navbar.Brand>
-    <Navbar.Toggle />
-    <Navbar.Collapse className="justify-content-end">
-      <Navbar.Text className='mx-3'>
-          <NavLink to ='/home'className='nav-link'> Home </NavLink>
-          <NavLink to ='/project'className='nav-link'> Project </NavLink>
-          <NavLink to ='/contact'className='nav-link'> Contact Me </NavLink>
-         
-      
-      </Navbar.Text>
-    </Navbar.Collapse>
- 
+<Navbar.Brand href="#home" className='m'><li className='mehedi-text'>Mehedi Hasan</li></Navbar.Brand>
+<Navbar.Toggle />
+<Navbar.Collapse className="justify-content-end">
+  <Navbar.Text className=''>
+      <NavLink to ='/home'className='nav-link'><li className='nav-text'> Home </li></NavLink>
+      <NavLink to ='/project'className='nav-link'> <li className='nav-text'>Project</li> </NavLink>
+      <NavLink to ='/About'className='nav-link'> <li className='nav-text'>About Me</li> </NavLink>
+      <NavLink to ='/contact'className='nav-link'> <li className='nav-text'>Contact Me</li> </NavLink>
+      <NavLink to ='/blogs'className='nav-link'> <li className='nav-text'>Blogs</li> </NavLink>
+     
+  
+  </Navbar.Text>
+</Navbar.Collapse>
+
 </Navbar>
+            
             
         </div>
     );

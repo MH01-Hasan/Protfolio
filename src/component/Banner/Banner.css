@@ -1,7 +1,11 @@
 .home-component{
-    background-color:#202235;
     color: aliceblue;
+    background-image: url(https://img.freepik.com/free-vector/gradient-liquid-abstract-background_52683-60469.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .mehedi-fild{
     margin-top: 92px;
@@ -20,7 +24,7 @@
     border-radius: 6px;
     border: none;
     padding: 6px;
-    margin-top: 32px;
+    margin-top: 136px;
 }
 
 .mehedi-image{

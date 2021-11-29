@@ -16,15 +16,16 @@
 }
 
 .year{
-    padding: 3px;
+    padding: 3px 20px;
     font-size: 11px;
     background-color: #ff5900f7;
     padding: 3px -24px;
-    border-radius: 11px;
+    border-radius: 10px;
     color: wheat;
     font-weight: 700;
     margin-top: 15px;
     text-align: center;
+    margin-left: 42px;
 
 }
 

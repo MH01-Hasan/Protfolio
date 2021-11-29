@@ -26,8 +26,8 @@ const Project = () => {
        
     ]
     return (
-        <div>
-        <Fade bottom big>
+        <div className='' >
+        
         <div className='row mx-5 mb-5'>
        
         {
@@ -39,7 +39,7 @@ const Project = () => {
      
         
         </div>
-        </Fade>
+       
     </div>
     );
 };
