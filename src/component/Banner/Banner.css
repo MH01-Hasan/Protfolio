@@ -1,0 +1,49 @@
+.home-component{
+    background-color:#202235;
+    color: aliceblue;
+}
+
+.mehedi-fild{
+    margin-top: 92px;
+}
+
+.mehedi{
+    text-align: center;
+    font-family: ui-serif;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.resume{
+    color: #202235;
+    background-color: #bf3ac1;
+    border-radius: 6px;
+    border: none;
+    padding: 6px;
+    margin-top: 32px;
+}
+
+.mehedi-image{
+    width: 212px;
+    height: 251px;
+    border-radius: 50%;
+    margin-top: 82px;
+    margin-bottom: 96px;
+    margin-left: 80px;
+}
+
+.soceal-icon{
+    margin: 1px;
+}
+.icon-site{
+    color: seashell;
+    margin-left: 34px;
+    font-size: 29px;
+}
+.icon-site:hover{
+    color: rgb(74, 178, 233);
+}
+.icon-fild{
+    margin-left: 70px;
+    margin-bottom: 20px;
+}

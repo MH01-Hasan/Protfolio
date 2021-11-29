@@ -1,0 +1,6 @@
+.nav-link{
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 14px;
+    font-family: ui-rounded;
+}

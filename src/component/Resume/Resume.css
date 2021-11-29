@@ -1,0 +1,73 @@
+
+.resume-text{
+    text-align: center;
+    font-size: 32px;
+    font-family: none;
+    letter-spacing: 2px;
+
+}
+.formal{
+    margin: 7px;
+    color: #100f0fde;
+    font-size: 12px;
+    font-family: serif;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+
+}
+
+.component{
+    border-left: 1px solid #8080806e;
+}
+ li{
+    list-style: none;
+}
+
+.dispaly-icon{
+    margin-left: 13px;
+    display: flex;
+}
+
+.text-control{
+    width: 100%;
+}
+
+.icon-control{
+    background-color: black;
+    padding: 4px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+
+
+.nested-link {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.dashboard-menu:hover{
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    
+}
+
+.fa-icon{
+    color: white;
+    margin-left: 2px;
+    font-size: medium;
+    margin-top: 35px;
+}
+
+.dashboard-menu{
+    letter-spacing: 1px;
+    color: black;
+    font-size: 16px;
+    margin-top: 33px;
+    font-family: emoji;
+    padding-left: 15px;
+}

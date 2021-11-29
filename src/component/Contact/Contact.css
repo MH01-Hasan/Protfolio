@@ -1,0 +1,58 @@
+.contact-fild{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa9t3fT-3v-xWxMjZ3ffD2ptHjKtAKTBrIu4rGgn0ADjqGr8tejb5rcyKbFIaeGp0N72I&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    
+}
+.from-fild{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.contact-information{
+    margin-top: 86px;
+    background-color: #a19b93;
+    padding: 14px;
+    border-radius: 10px;
+    margin-right: 59px;
+}
+
+.input-fild{
+    width: 264px;
+    border: navajowhite;
+    border-radius: 5px;
+    height: 28px;
+}
+
+.textarea{
+    width: 264px;
+    border: navajowhite;
+    border-radius: 5px;
+    height: 81px;
+}
+
+
+.send-item{
+    color: #161416;
+    background-color: #3bc388f0;
+    border: navajowhite;
+    border-radius: 5px;
+    padding: 2px 26px;
+    font-size: 14px;
+    font-family: initial;
+    font-weight: bolder;
+    letter-spacing: 3px;
+
+}
+
+.levet-text{
+    color: #080808;
+    font-size: 16px;
+    font-family: emoji;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+}
