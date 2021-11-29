@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, Switch, useRouteMatch } from 'react-router';
 import { Link } from 'react-router-dom';
 import Education from '../Bio/Education/Education';
-import Project from '../Bio/Project/Project';
 import Skils from '../Bio/Skils/Skils';
 import Work from '../Bio/Work/Work';
 import './Resume.css'
@@ -36,9 +35,9 @@ const Resume = () => {
                                 <Link  to={`${url}/work`} className='nested-link'>
                                 <li className="dashboard-menu "> Project</li>
                                 </Link>
-                                <Link  to={`${url}/intersted`} className='nested-link'>
+                                {/* <Link  to={`${url}/intersted`} className='nested-link'>
                                 <li className="dashboard-menu "> Intersted</li>
-                                </Link>
+                                </Link> */}
 
                             </div>
 
@@ -59,9 +58,7 @@ const Resume = () => {
                 <Route  exact path={`${path}/work`}>
                    <Work></Work>
                 </Route>
-                <Route  exact path={`${path}/intersted`}>
-                    {/* <Project></Project> */}
-                </Route>
+                
                 </Switch>
            </div>
     </div>
