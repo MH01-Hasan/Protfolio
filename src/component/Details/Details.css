@@ -1,0 +1,25 @@
+ .a-cor{
+    text-decoration: none;
+    margin-left: 26px;
+    background-color: #9da0a3;
+    padding: 5px 20px;
+    margin-top: -2px;
+    border-radius: 4px;
+    color: #020202;
+    font-family: fangsong;
+}
+
+.anchor{
+    margin-top: 18px;
+    margin-bottom: 18px;
+
+}
+
+.details-text{
+    font-family: system-ui;
+    letter-spacing: 1px;
+    color: brown;
+    padding: 4px;
+    margin-left: 18px;
+
+}

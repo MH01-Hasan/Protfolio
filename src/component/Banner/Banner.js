@@ -39,14 +39,14 @@ const Banner = () => {
                    <div className='icon-fild'>
                    <Slide right>
                       <div>
-                       <a href="https://www.facebook.com/mehedi.0802"className='soceal-icon'target="">
+                       <a href="https://www.facebook.com/mehedi.0802"className='soceal-icon'target=" ">
                            <i className="fab fa-facebook-square icon-site"></i>
                         </a> 
-                       <a href="https://www.linkedin.com/in/mehedi-hasan-a640b2227/" className='soceal-icon' target=""> 
+                       <a href="https://www.linkedin.com/in/mehedi-hasan-a640b2227/" className='soceal-icon' target=" "> 
                        <i className="fab fa-linkedin icon-site"></i>
                        </a>  
 
-                      <a href="https://github.com/MH01-Hasan" className='soceal-icon' target="">
+                      <a href="https://github.com/MH01-Hasan" className='soceal-icon' target=" ">
                            <i className="fab fa-github-square icon-site"></i>
                            </a> 
                       </div>

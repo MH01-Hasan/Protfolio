@@ -31,7 +31,7 @@ const Html = <ProgressBar now={html} label={`${html}%`} />;
           
               </Fade>
                 <Fade left>
-                <small>javascript</small>
+                <small>css</small>
                     <p>{progressInstance}</p>
           
               </Fade>

@@ -4,29 +4,28 @@
     font-family: inherit;
     margin-left: 10px;
     letter-spacing: 1px;
+    color: #3fe162;
 }
 
 
-.university{
-    margin-left: 9px;
-    font-size: 14px;
-    color: #eb3517;
-    margin-top: 16px;
 
+    .university {
+        margin-left: 9px;
+        font-size: 14px;
+        color: #ffffff;
+        margin-top: 16px;
 }
 
 .year{
     padding: 3px 20px;
     font-size: 11px;
-    background-color: #ff5900f7;
-    padding: 3px -24px;
+    background-color: #150135;
     border-radius: 10px;
-    color: wheat;
+    color: #e8e5eb;
     font-weight: 700;
     margin-top: 15px;
     text-align: center;
     margin-left: 42px;
-
 }
 
 .fild{

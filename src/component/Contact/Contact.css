@@ -1,34 +1,34 @@
-.contact-fild{
+/* .contact-fild{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa9t3fT-3v-xWxMjZ3ffD2ptHjKtAKTBrIu4rGgn0ADjqGr8tejb5rcyKbFIaeGp0N72I&usqp=CAU);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
     
-}
-.from-fild{
+} */
+/* .from-fild{
     display: flex;
     justify-content: end;
     
-}
+} */
 
 .contact-information{
     margin-top: 86px;
-    background-color: #a19b93;
     padding: 14px;
     border-radius: 10px;
     margin-right: 59px;
+    background-image: linear-gradient(to right, #881261 ,#6509748f);
 }
 
 .input-fild{
-    width: 264px;
+    width: 100%;
     border: navajowhite;
     border-radius: 5px;
     height: 28px;
 }
 
 .textarea{
-    width: 264px;
+    width: 100%;
     border: navajowhite;
     border-radius: 5px;
     height: 81px;
@@ -56,3 +56,28 @@
     font-weight: 700;
 
 }
+
+.sbg-image{
+    width: 338px;
+    
+    margin-top: 77px;
+
+}
+
+.contact-fild{
+    background-image: linear-gradient(to right, #140034 ,#140034 , #971285,#973d77);
+    
+
+}
+
+.contact-me{
+    color: white;
+    text-align: -webkit-center;
+    margin-top: 34px;
+    font-family: initial;
+    font-size: 27px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+
+}
+

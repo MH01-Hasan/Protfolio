@@ -1,0 +1,25 @@
+.me{
+    font-size: 30px;
+    font-family: auto;
+    letter-spacing: 4px;
+    margin-left: 54px;
+    margin-top: 0px;
+    color: white;
+    padding-top: 63px;
+    padding-bottom: 12px;
+
+}
+
+.about{
+    padding: 0px 46px;
+    font-family: none;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: white;
+    margin: 0px;
+
+}
+.about-fild{
+    background-image: linear-gradient(to right, #140034 ,#170136 , #961284,#97337bf5);
+
+}

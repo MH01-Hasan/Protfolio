@@ -1,1 +1,15 @@
+.card-image-slider-fild{
+    background-image: linear-gradient(to right, #140034 ,#140034 , #971285,#992583);    height: 482px;
+    padding-top: 45px;
+    margin-top: 1px;
 
+}
+
+
+.project-text{
+    text-align: center;
+    color: white;
+    font-family: serif;
+    margin-bottom: 25px;
+    letter-spacing: 11px;
+}

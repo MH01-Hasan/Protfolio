@@ -1,15 +1,21 @@
 
 .resume-text{
     text-align: center;
-    font-size: 32px;
+    font-size: 34px;
     font-family: none;
     letter-spacing: 2px;
+    color: azure;
+
+}
+
+.resume-fild{
+    background-image: linear-gradient(to right, #140034 ,#170136 , #981a84,#9a3980);
 
 }
 .formal{
     margin: 7px;
-    color: #100f0fde;
-    font-size: 12px;
+    color: #fff;
+    font-size: 15px;
     font-family: serif;
     letter-spacing: 2px;
     display: flex;
@@ -35,7 +41,7 @@
 }
 
 .icon-control{
-    background-color: black;
+    background-color: #a6148b;
     padding: 4px;
     border-radius: 5px;
     padding-bottom: 20px;
@@ -50,9 +56,10 @@
 }
 
 .dashboard-menu:hover{
-    background-color: black;
     color: white;
     border-radius: 2px;
+    background-color: #a6148b;
+    height: 26px;
     
 }
 
@@ -65,7 +72,7 @@
 
 .dashboard-menu{
     letter-spacing: 1px;
-    color: black;
+    color: white;
     font-size: 16px;
     margin-top: 33px;
     font-family: emoji;

@@ -12,7 +12,7 @@ const Resume = () => {
 
     return (
 
-<div className='  resume-fild mb-5 background '>
+<div className='  resume-fild  background '>
     <h1 className='resume-text'>Resume</h1>
     <small className='formal'>My formal Bio Details</small>
     <div className='row'>
